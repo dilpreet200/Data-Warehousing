@@ -2,8 +2,8 @@ import configparser
 
 
 # CONFIG
-config = configparser.ConfigParser() # "config" is an object of configparser class and this class from configparser modules helps to read and write config files which in this case is "dwh.cfg"
-config.read('dwh.cfg') # using object to read config file
+config = configparser.ConfigParser() 
+config.read('dwh.cfg') 
 
 # DROP TABLES
 
